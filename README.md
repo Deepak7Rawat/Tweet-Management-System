@@ -1,54 +1,103 @@
 # Tweet-Management-System
 Professional C++ Linked List Management System project created using Data Structures &amp; OOP. The project covers operations like insert, delete, traverse, search, and count nodes in addition to having a menu-driven interface and dynamic memory allocation.
-# TweetList — Standalone HTML/CSS/JS
+# Linked List Management System
 
-A futuristic, glassmorphism-styled linked list visualizer built with **plain HTML, CSS and JavaScript**. No build step. No dependencies. Just open `index.html`.
+A professional C++ Linked List Management System project developed using Data Structures and Object-Oriented Programming concepts. This project demonstrates the implementation of linked list operations with a clean console-based user interface and menu-driven functionality.
 
-## ✨ Features
-- 🧠 **Two modes** — Singly & Doubly linked list (toggle live)
-- ➕ **Insert** at head / tail / position
-- 🗑️ **Delete** at head / tail / position
-- 🔍 **Search** by username or tweet ID
-- 🔁 **Traversal** — forward/backward in doubly mode
-- 🐦 **Live tweet feed** synced with the list
-- 🎨 Soft-dark glass UI with animated blobs, neon gradients, hover glows
+---
 
-## 🚀 Run
-```bash
-# just open
-open index.html        # macOS
-start index.html       # Windows
-xdg-open index.html    # Linux
-```
-Or serve with any static server:
-```bash
-python3 -m http.server 8080
-```
+## Features
 
-## 📁 Structure
-```
-.
-├── index.html   # markup + sections (hero, about, features, visualizer, feed, tech)
-├── styles.css   # design tokens, glass effects, animations
-└── script.js    # TweetLinkedList class + UI wiring
-```
+- Insert Nodes
+- Delete Nodes
+- Search Tweets
+- Count Total Nodes
+- Traversal Operations
+- Dynamic Memory Allocation
+- Console UI with Colors
+- Menu-Driven Program
 
-## 🔗 GitHub link
-Edit a single line in `script.js`:
-```js
-const githubRepo = "https://github.com/your-username/your-repo";
-```
-All `[data-github]` buttons (navbar, hero, footer) update automatically.
+---
 
-## 🔌 Connect your own backend
-The `TweetLinkedList` class in `script.js` is fully UI-agnostic. Replace the implementation (or proxy calls to your backend) — the UI requires only:
-- `insertAtBeginning(username, tweet) → node`
-- `insertAtEnd(username, tweet) → node`
-- `insertAtPosition(0-based, username, tweet) → node`
-- `deleteFromBeginning() → node | null`
-- `deleteFromEnd() → node | null`
-- `deleteAtPosition(1-based) → node | null`
-- `search(query) → node[]`
-- `snapshot() → node[]`
+## Technologies Used
 
-Each node = `{ id: string, username: string, tweet: string }`.
+- C++
+- Data Structures
+- Linked List
+- Object-Oriented Programming (OOP)
+- Windows Console Functions
+
+---
+
+## Project Overview
+
+This project simulates a simple tweet management system using linked lists. Each node stores:
+
+- Tweet ID
+- User Name
+- Tweet Message
+
+The project helps in understanding:
+
+- Pointer manipulation
+- Dynamic memory management
+- Node traversal
+- Linked list operations
+
+---
+
+## Operations Implemented
+
+### Insertion
+- Insert at Beginning
+- Insert at End
+- Insert at Given Position
+
+### Deletion
+- Delete from Beginning
+- Delete from End
+- Delete from Given Position
+
+### Other Operations
+- Display Records
+- Search Tweets
+- Count Nodes
+
+---
+
+## Console UI
+
+The project includes:
+
+- Loading Screen
+- Colorful Menus
+- Formatted Output
+- Interactive Navigation
+
+---
+
+## How to Run
+
+1. Open the project in Dev C++ / CodeBlocks / VS Code
+2. Compile the source file
+3. Run the program
+4. Use menu options to perform operations
+
+---
+
+## Learning Outcomes
+
+This project improved understanding of:
+
+- Linked List Data Structure
+- Dynamic Memory Allocation
+- Object-Oriented Programming
+- Menu Driven Applications
+- Console Application Design
+
+---
+
+## Author
+
+**Deepak Rawat**  
+BCA 2nd Semester Student
