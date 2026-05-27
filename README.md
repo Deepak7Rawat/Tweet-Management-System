@@ -95,7 +95,7 @@ The project focuses on:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/LinkedList-Management-System.git
+git clone https://github.com/Deepak7Rawat/LinkedList-Management-System.git
 ```
 
 ## Step 2
